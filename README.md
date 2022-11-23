@@ -5,7 +5,7 @@
 - `docker-compose up -d influxdb grafana`
 
 Import Grafana Configuration:
-- Load http://localhost:3000, and import the `grafana_dashboard.json` config to a new dashboard.
+- Load http://localhost:3000, and import the `grafana_dashboard_v1.json` config to a new dashboard.
 
 Start Test:
 - `docker-compose run k6 run --vus 10 --duration 30s /tests/basics/simple.js`
